@@ -56,44 +56,75 @@ GRC Twin brings these activities into a unified AI-assisted compliance workflow.
 
 ---
 
+
 ## 🔄 How GRC Twin Works
 
-**01. Regulatory Update Detection**  
-Identify relevant changes in CBB regulatory requirements.
+GRC Twin follows a structured, AI-assisted compliance workflow, transforming regulatory updates into traceable compliance actions while maintaining human oversight.
 
-⬇️
+```text
+┌───────────────────────────────────────────────┐
+│        01. REGULATORY UPDATE DETECTION        │
+│                                               │
+│     Identify relevant CBB regulatory updates │
+└───────────────────────┬───────────────────────┘
+                        │
+                        ▼
+┌───────────────────────────────────────────────┐
+│        02. REGULATORY CHANGE ANALYSIS         │
+│                                               │
+│      Compare versions, analyze changes,       │
+│       and identify regulatory obligations     │
+└───────────────────────┬───────────────────────┘
+                        │
+                        ▼
+┌───────────────────────────────────────────────┐
+│         03. POLICY & CONTROL MAPPING          │
+│                                               │
+│     Map requirements to internal policies     │
+│              and existing controls            │
+└───────────────────────┬───────────────────────┘
+                        │
+                        ▼
+┌───────────────────────────────────────────────┐
+│           04. GAP IDENTIFICATION              │
+│                                               │
+│      Identify potential compliance gaps       │
+│        and generate recommendations           │
+└───────────────────────┬───────────────────────┘
+                        │
+                        ▼
+┌───────────────────────────────────────────────┐
+│        05. HUMAN REVIEW & APPROVAL            │
+│                                               │
+│       Validate AI-generated findings,         │
+│         recommendations, and decisions        │
+└───────────────────────┬───────────────────────┘
+                        │
+                        ▼
+┌───────────────────────────────────────────────┐
+│        06. REMEDIATION & EVIDENCE             │
+│                                               │
+│     Assign owners, track remediation,         │
+│          deadlines, and evidence              │
+└───────────────────────┬───────────────────────┘
+                        │
+                        ▼
+┌───────────────────────────────────────────────┐
+│         07. AUDIT TRAIL & OVERSIGHT           │
+│                                               │
+│     Maintain end-to-end traceability of       │
+│      requirements, decisions, and actions     │
+└───────────────────────────────────────────────┘
 
-**02. Regulatory Analysis**  
-Compare updated requirements against the previous regulatory baseline and support obligation interpretation.
+    GOVERNANCE THROUGHOUT THE WORKFLOW
+  ───────────────────────────────────────
+   RBAC  •  AI Governance  •  Human Oversight
+       Source Traceability  •  Auditability
+```
 
-⬇️
+**Core principle:** AI assists with analysis and recommendations, while authorized professionals retain responsibility for validation and approval.
 
-**03. Policy & Control Mapping**  
-Evaluate how relevant internal policies and controls address applicable requirements.
-
-⬇️
-
-**04. Gap Identification**  
-Highlight potential coverage gaps and areas requiring further review.
-
-⬇️
-
-**05. Human Validation & Approval**  
-Authorized reviewers validate findings, assess recommendations, and approve appropriate actions.
-
-⬇️
-
-**06. Remediation & Evidence**  
-Track assigned responsibilities, remediation progress, deadlines, and supporting evidence.
-
-⬇️
-
-**07. Auditability & Oversight**  
-Maintain traceability across requirements, decisions, approvals, findings, and actions.
-
-### High-Level Workflow Diagram
-
-*Add the approved conceptual workflow diagram here.*
+*This diagram represents the conceptual compliance workflow and does not disclose proprietary system architecture or implementation details.*
 
 ---
 
